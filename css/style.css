@@ -1,0 +1,622 @@
+nav{
+	background-color:black;
+	color: white;
+    
+}
+#logo{
+	height: 100px;
+	padding-bottom: 30px;
+}
+.container-fluid{
+	background-color:white;
+}
+.container-fluid ul{
+	padding-top: 25px;
+}
+.header-one button{
+ background-color: black;
+ border: 1px solid black;
+}
+.header-one a{
+	color: white;
+}
+.header-one button a{
+	text-decoration:none;
+}
+.header-one button a:hover{
+	color:#00cc99;
+}
+.header1 button a{
+	text-decoration:none;
+}
+.header1 button a:hover{
+	color:#00cc99
+}
+.header1{
+	list-style-type: none;
+	float: right;
+}
+.empty-bar{
+	height: 100px;
+}
+.featured-listing{
+	text-align: center;
+}
+#container-body{
+	background-color:#3d3d29;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left :20px;
+}
+#our_services h3 {
+    font-weight: 300;
+	font-size: 35px;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+}
+#our_services h3:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 2px solid #0aab9a;
+}
+#fairpricing {
+	text-align:center;
+	background: #f9f9ec;
+}	
+#fairpricing h1 {
+	font-weight: 300;
+	font-size: 35px;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+}
+#fairpricing h1:before {
+	content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #0aab9a;
+}
+#fairpricing .row {
+	padding-top :50px;
+	padding-bottom:30px;
+}
+table{
+	border: 1px solid #ccc;
+}
+table tr{
+	width: 180px;
+	height:60px;
+}
+.dur{
+	background-color: #e5e5cc;
+	text-align: center;
+	height: 50px;
+}
+.pr{
+	background-color: #ebebe0;
+	text-align: center;
+	height: 50px;
+}
+.lmt{
+	text-align: center;
+	height: 50px;
+}
+.btn button{
+	background-color: #2962ff;
+	text-align: center;
+	color: white;
+	padding-top:10px;
+	width:150px;
+}
+.btn button a{
+	color: white;
+	text-decoration: none;
+}
+.btn{
+	text-align: center;
+	border-radius:0px;
+	background:#ebebe0;
+	padding-bottom:12px;
+}
+#btn-1{
+	padding-left:25px;
+	width: 200px !important
+}
+#btn-2,#btn-3,#btn-4,#btn-5{
+	padding-left:25px;
+	width: 200px !important;
+}
+#footer{
+	background-image: url("/img/farming-banner.jpg");
+	background-color:#3d3d29;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+#footer .row h4 {
+	padding-right:130px;
+}
+#whatsapp {
+	padding-top:20px;
+}
+.ks{
+	text-align: left;
+}
+.ks span{
+	font-size: 30px;
+	padding-right: 10px;
+}
+.ci{
+	text-align: left;
+	list-style-type: none;
+}
+.ci span{
+	font-size: 30px;
+}
+#quicklinks li a{
+	text-decoration:none;
+}
+#quicklinks h4{
+	text-align:left;
+	padding-left:36px;
+}#quicklinks .fa {
+	color:#0aab9a;
+}
+.ql{
+	list-style-type: none;
+	text-align: left;
+}
+.ql li a{
+	display: inline;
+	color: white;
+}
+.ql li a:hover  {
+	color:#0aa9ba
+}
+.copyright{
+	background-color: #004d40;
+	text-align: center;
+	color: white;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.featured-listing h1 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+}
+.featured-listing h1:before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 2px solid #0aab9a;
+}
+
+
+h4,h5,h6 {
+	font-size:20px;
+}
+hr{
+	color:white;
+}
+#footer p {
+	font-size:15px;
+	color:white;
+}
+#our_services p {
+	color:white;
+	font-size:17px;
+	margin: 0px 0px 20px 0px;
+    padding-left: 75px;
+    text-align: left;
+}
+#our_services h3 {
+	margin: 0px 0px 30px 0px;
+    text-align: left;
+}
+#our_services h3:after {
+	margin: 17px 0px 0px 0px;
+}
+
+.header-action{
+  float:right;
+  padding-right:20px;
+  size:0px;  
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+
+/*header -action*/
+ .header-action-inner {
+        background-color: #0aab9a;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        transition: all .15s linear;
+        width: 35px; }
+    .header-action-inner i {
+        color: #fff; }
+    .header-action-inner:hover {
+        background-color: #099384;
+        color: #fff; }
+    .header-action-inner .icon-plus:before {
+        background-color: #fff;
+        content: '';
+        height: 1px;
+        width: 40px; }
+
+
+#register{
+    background:#f2f2f2;
+    width:100%;
+    
+}
+/*#box {
+    color: #0aab9a;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 1.5em;
+}*/
+/*.fa fa-life-ring {
+	color:#0aab9a;
+}*/
+#ring {
+	width:80px;
+    height:80px;
+	background-color: white;
+	color:#0aab9a;
+	text-align:center;
+	border-radius:100%;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top : 20px;
+	
+}
+#flask {
+	width:80px;
+    height:80px;
+	background-color: white;
+	color:#0aab9a;
+	text-align:center;
+	border-radius:100%;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top : 20px;
+	
+}
+
+#thumbsup {
+	width:80px;
+    height:80px;
+	background-color: white;
+	color:#0aab9a;
+	text-align:center;
+	border-radius:100%;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top : 20px;
+	
+}
+#kisansaathi h5,h6,h7 {
+	font-size:16px;
+}
+#kisansaathi .fa {
+	color:#0aab9a;
+}
+#kisansaathi p {
+	padding-bottom:10px;
+}
+#kisansaathi {
+	padding-left: 50px;
+}
+#contact .fa {
+	color:#0aab9a;
+}
+#contact h5{
+	font-size:15px;
+	text-align: left;	
+	padding-left:30px ;
+	padding-bottom:15px;
+}
+
+#findus {
+	float:right;
+	padding-right: 260px;
+	padding-bottom:30px;
+}
+#findus h5 {
+	padding-bottom:20px;
+}
+#findus a {
+	padding-right:10px;
+}
+#findus .fa{
+	padding-right:5px;
+}
+
+#footerbottom {
+	padding-top:10px;
+	display:inline-block;
+	padding-bottom:25px;
+}
+#footerbottom_ul {
+	list-style-type:none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#footerbottom li {
+	display:inline-block;
+}
+#footerbottom li a{ 
+	text-align:center;
+	color:white;
+	text-decoration: none;
+	padding-left:50px;
+	display:inline-block;
+	
+}
+#footerbottom a:hover{
+	color:#0aab9a;
+}
+
+
+/*!
+ * Social Buttons for Twitter Bootstrap v1.0.0
+ *
+ * Copyright 2013 Adam Neumann
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+.btn-facebook {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2b4b90;
+  *background-color: #133783;
+  background-image: -moz-linear-gradient(top, #3b5998, #133783);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+  background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+  background-image: -o-linear-gradient(top, #3b5998, #133783);
+  background-image: linear-gradient(to bottom, #3b5998, #133783);
+  background-repeat: repeat-x;
+  border-color: #133783 #133783 #091b40;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.btn-facebook.disabled,
+.btn-facebook[disabled] {
+  color: #ffffff;
+  background-color: #133783;
+  *background-color: #102e6d;
+}
+
+.btn-facebook:active,
+.btn-facebook.active {
+  background-color: #0d2456 \9;
+}
+
+.btn-twitter {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #1c95d0;
+  *background-color: #0271bf;
+  background-image: -moz-linear-gradient(top, #2daddc, #0271bf);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2daddc), to(#0271bf));
+  background-image: -webkit-linear-gradient(top, #2daddc, #0271bf);
+  background-image: -o-linear-gradient(top, #2daddc, #0271bf);
+  background-image: linear-gradient(to bottom, #2daddc, #0271bf);
+  background-repeat: repeat-x;
+  border-color: #0271bf #0271bf #014473;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2daddc', endColorstr='#ff0271bf', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.btn-twitter.disabled,
+.btn-twitter[disabled] {
+  color: #ffffff;
+  background-color: #0271bf;
+  *background-color: #0262a6;
+}
+
+.btn-twitter:active,
+.btn-twitter.active {
+  background-color: #01538d \9;
+}
+
+.btn-pinterest {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #c51e25;
+  *background-color: #ab171e;
+  background-image: -moz-linear-gradient(top, #d62229, #ab171e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d62229), to(#ab171e));
+  background-image: -webkit-linear-gradient(top, #d62229, #ab171e);
+  background-image: -o-linear-gradient(top, #d62229, #ab171e);
+  background-image: linear-gradient(to bottom, #d62229, #ab171e);
+  background-repeat: repeat-x;
+  border-color: #ab171e #ab171e #680e12;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd62229', endColorstr='#ffab171e', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-pinterest:hover,
+.btn-pinterest:focus,
+.btn-pinterest:active,
+.btn-pinterest.active,
+.btn-pinterest.disabled,
+.btn-pinterest[disabled] {
+  color: #ffffff;
+  background-color: #ab171e;
+  *background-color: #95141a;
+}
+
+.btn-pinterest:active,
+.btn-pinterest.active {
+  background-color: #7e1116 \9;
+}
+
+.btn-linkedin {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #60a9ce;
+  *background-color: #4393bb;
+  background-image: -moz-linear-gradient(top, #73b8db, #4393bb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73b8db), to(#4393bb));
+  background-image: -webkit-linear-gradient(top, #73b8db, #4393bb);
+  background-image: -o-linear-gradient(top, #73b8db, #4393bb);
+  background-image: linear-gradient(to bottom, #73b8db, #4393bb);
+  background-repeat: repeat-x;
+  border-color: #4393bb #4393bb #2f6783;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73b8db', endColorstr='#ff4393bb', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active,
+.btn-linkedin.active,
+.btn-linkedin.disabled,
+.btn-linkedin[disabled] {
+  color: #ffffff;
+  background-color: #4393bb;
+  *background-color: #3c84a8;
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active {
+  background-color: #367595 \9;
+}
+
+.btn-google-plus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d34332;
+  *background-color: #c53727;
+  background-image: -moz-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#c53727));
+  background-image: -webkit-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -o-linear-gradient(top, #dd4b39, #c53727);
+  background-image: linear-gradient(to bottom, #dd4b39, #c53727);
+  background-repeat: repeat-x;
+  border-color: #c53727 #c53727 #85251a;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ffc53727', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-google-plus:hover,
+.btn-google-plus:focus,
+.btn-google-plus:active,
+.btn-google-plus.active,
+.btn-google-plus.disabled,
+.btn-google-plus[disabled] {
+  color: #ffffff;
+  background-color: #c53727;
+  *background-color: #b03123;
+}
+
+.btn-google-plus:active,
+.btn-google-plus.active {
+  background-color: #9a2b1f \9;
+}
+
